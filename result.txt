@@ -1,0 +1,16 @@
+Two threads
+1. Yes, the output does look different everytime when we run the program.
+2. They are interleaved because the computer is running instances of the same method at the same time. this does not display the value of i in thread a or b in any particular order.
+3. Yes, each thread prints it own line correct order. The thread run independly sequenctial, and it hard to see 0 come before 1 because for out run method. Print the number of thread in order.
+
+Counter
+1. Most of the time it's right. Because it running two thread at the same time independently. And the reason sometime the output is not right is because of the three step process and the value changing at the same time could end in a unexpected value.
+2. The reason is because of the three step process and the value changing at the same time could end up in a unexpected value.
+
+Producer Consumer
+1. 15 total messages send and recieved.
+2. The ouput rarely seem correct. Most of the time I run the program, the message are sent but not recieved and if they are recieved, some message are left in the buffer. 
+
+ProducerConsumer with Monitor:
+1. Yes, there are messages left in buffer.
+2. The wait method put the thread to sleep. Once awakened the thread recheck the emptiness.

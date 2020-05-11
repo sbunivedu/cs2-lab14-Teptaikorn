@@ -13,7 +13,7 @@ public class Counter {
     c--;
   }
 
-  public static void main(String[] args) throws InterruptedException {
+  public static void main(String[] args) throwsm InterruptedException {
     Counter c = new Counter();
     Updator up = new Updator(c, true);
     Updator down = new Updator(c, false);
